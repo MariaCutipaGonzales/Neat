@@ -1,0 +1,47 @@
+
+#our-promise .container{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.descr-our{
+    color: #494949;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15%;
+    text-align: center;
+}
+.descr-our-principal{
+    color: #494949;
+    font-size: 2.7rem;
+    line-height: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.subtitle-our{
+    color: #6EA43F;
+    line-height: 28px;
+    letter-spacing: normal;
+    font-size: 17px;
+    text-align: center;
+}
+
+.feature-desc{
+    border: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon--feature-support,
+.icon--feature-professional,
+.icon--feature-insurance,
+.icon--feature-flexibility,
+.icon--feature-transparency,
+.icon--feature-eco {
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+}
