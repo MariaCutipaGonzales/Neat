@@ -1,0 +1,71 @@
+
+/*OUR COMMUNITY*/
+#our-community {
+    color: #FFF;
+    background-color: #75B9E7;
+}
+
+#our-community .container {
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    flex-direction: column;
+}
+
+#our-community .testimonials p{
+    font-size: 1.8rem;
+    line-height:30px;
+}
+
+.title-principal{
+    font-size: 6rem;
+    line-height: 60px;
+    color: #fff;
+}
+
+#our-community .testimonials h4{
+    font-size: 2.5rem;
+    line-height: 10px;
+}
+
+#our-community .testimonials span{
+    font-size: 2rem;
+    border-collapse: collapse;
+}
+
+#our-community .row{
+    padding-bottom: 20px;
+}
+.avatar {
+    background-image: url(../img/testimonials@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.avatar-2 {
+    background-position: 0 -205px;
+}
+.avatar-3 {
+    background-position: 0 -104px;
+}
+
+.icon--rating-5 {
+    background-size: 100%;
+    width: 130px;
+    height: 40px;
+    margin-bottom: 1em;
+    float: left;
+}
+
+.subtitle{
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 40px;
+}
+.subtitle-chek{
+    font-size: 2.5rem;
+    color: #494949;
+}
