@@ -1,0 +1,98 @@
+
+#quote {
+    background-color: #eee;
+    padding: 6em 0;
+}
+
+#quote .container{
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 1em 4em;
+        width: 60%;
+}
+
+input[type="text"]{
+    text-align: center;
+}
+
+.bottom{
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.icon--property-studio,
+.icon--property-house,
+.icon--property-apartment {
+    background-size: contain;
+    border-radius: 50%;
+    width: 3.4em;
+    height: 3.4em;
+    margin-right: 0.5em;
+    opacity: 0.5;
+    float: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#quote .icon--property-apartment {
+    border: 2px solid #2a94e2;
+    opacity: 1;
+}
+
+.extras-box input[type=checkbox]:before {
+    content: "";
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.extras-box input[type=checkbox]:checked:before {
+    background-image: url('../img/check.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*
+.extras-box input[type=radio]:checked:before{
+    background-color: #87bf57;
+}
+*/
+.extras-box {
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1em;
+}
+.extras-box label{
+    left: 8%;
+    top: 8px;
+    position: relative;
+}
+
+.extras-box div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.extras-box .extras-box-det{
+    margin-bottom: 20px;
+}
+
+.btn-success{
+    width: 25%;
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-bottom:  5%;
+    background-color: #6EA43F;
+    border: #6EA43F;
+    border-radius: 30px;
+    font-size: 1.5em;
+}
