@@ -1,0 +1,43 @@
+
+/*Howitworks*/
+ #how-it-works {
+    background-color: #f9f9f9;
+ }
+
+ .circle-icon{
+    background-color: #ffcc66;
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+    margin: auto;
+ }
+
+.icon--step-bond-guarantee,
+.icon--step-quote,
+.icon--step-payment {
+    background-size: 65%;
+    background-position: center;
+    z-index: 5;
+}
+
+.title-work,.title-our{
+    color:#3498DB;
+    font-size: 5.5rem;
+    display: block;
+}
+
+.descr-work{
+    border-collapse: collapse;
+    color: #494949;
+    font-size: 2rem;
+    line-height: 30px;
+}
+
+#how-it-works .container{
+    padding-top: 5%;
+    width: 80%;
+}
+
+#how-it-works .row{
+    padding: 2% 2%;
+}
