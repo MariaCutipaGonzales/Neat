@@ -1,0 +1,66 @@
+
+#checklist {
+    background-color: #3498db;
+    position: relative;
+    padding: 0;
+    color: #494949!important;
+    padding-bottom:7%;
+}
+
+#checklist .gallery:nth-child(3),
+#checklist .gallery:nth-child(4) {
+    position: absolute;
+    top: -10em;
+    left: 0;
+    right: 0;
+    width: 85%;
+    margin: auto;
+}
+#checklist .gallery:nth-child(3) {
+    z-index: 5;
+}
+#checklist .gallery:nth-child(4) {
+    z-index: 4;
+}
+#checklist .gallery:nth-child(3) img:first-child {
+    position: absolute;
+    top: 0;
+    left: -1em;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    transition: 0.4s;
+}
+#checklist .gallery:nth-child(3) img:first-child:hover,
+#checklist .gallery:nth-child(3) img:nth-child(5):hover,
+#checklist .gallery:nth-child(4) img:nth-child(3):hover {
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+#checklist .gallery:nth-child(3) img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 15.5em;
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+    transition: 0.4s;
+}
+
+#checklist .gallery:nth-child(3) img:nth-child(2):hover,
+#checklist .gallery:nth-child(3) img:nth-child(4):hover,
+#checklist .gallery:nth-child(4) img:nth-child(4):hover {
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+#checklist .gallery:nth-child(3) img:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 32.5em;
+    -webkit-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+    transition: 0.4s;
+}
